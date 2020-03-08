@@ -12,4 +12,5 @@ dependencies = [
 ]
 
 [[package]]
-name 
+name = "base64"
+versio
