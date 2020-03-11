@@ -14,4 +14,4 @@ dependencies = [
 [[package]]
 name = "base64"
 version = "0.13.0"
-sourc
+source = "registry+https
