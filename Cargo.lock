@@ -15,4 +15,4 @@ dependencies = [
 name = "base64"
 version = "0.13.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "904dfeac5
+checksum = "904dfeac50f3cdaba28fc
