@@ -20,4 +20,4 @@ checksum = "904dfeac50f3cdaba28fc6f57fdcddb75f49ed61346676a78c4ffe55877802fd"
 [[package]]
 name = "bumpalo"
 version = "3.6.0"
-source = "registry+https://githu
+source = "registry+https://github.com/rust-lang/c
