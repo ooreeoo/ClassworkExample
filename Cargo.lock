@@ -31,4 +31,5 @@ checksum = "4c0496836a84f8d0495758516b8621a622beb77c0fed418570e50764093ced48"
 
 [[package]]
 name = "cfg-if"
-vers
+version = "1.0.0"
+s
