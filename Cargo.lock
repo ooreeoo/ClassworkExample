@@ -52,3 +52,5 @@ dependencies = [
 ]
 
 [[package]]
+name = "idna"
+v
