@@ -54,4 +54,4 @@ dependencies = [
 [[package]]
 name = "idna"
 version = "0.2.1"
-source = "registry+htt
+source = "registry+https://gith
