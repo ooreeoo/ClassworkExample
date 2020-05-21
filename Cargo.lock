@@ -54,4 +54,5 @@ dependencies = [
 [[package]]
 name = "idna"
 version = "0.2.1"
-source = "registry+https://github.com/rust-lang/crates.i
+source = "registry+https://github.com/rust-lang/crates.io-index"
+chec
