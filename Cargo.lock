@@ -55,4 +55,4 @@ dependencies = [
 name = "idna"
 version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "de910d521f7cc3135c4de8db1cb910e0b
+checksum = "de910d521f7cc3135c4de8db1cb910e0b5ed1dc6f57c381cd07e
