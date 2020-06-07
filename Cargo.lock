@@ -65,4 +65,4 @@ dependencies = [
 [[package]]
 name = "itoa"
 version = "0.4.7"
-source = "regist
+source = "registry+https://github
