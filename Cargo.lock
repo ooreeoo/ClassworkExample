@@ -65,4 +65,5 @@ dependencies = [
 [[package]]
 name = "itoa"
 version = "0.4.7"
-source = "registry+https://github.com/rust-lang/c
+source = "registry+https://github.com/rust-lang/crates.io-index"
+ch
