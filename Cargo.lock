@@ -66,4 +66,4 @@ dependencies = [
 name = "itoa"
 version = "0.4.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dd25
+checksum = "dd25036021b0de8
