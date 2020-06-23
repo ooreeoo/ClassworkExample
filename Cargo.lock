@@ -73,4 +73,5 @@ name = "js-sys"
 version = "0.3.47"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5cfb73131c35423a367daf8cbd24100af0d077668c8c2943f0e7dd775fef0f65"
-de
+dependencies = [
+ 
