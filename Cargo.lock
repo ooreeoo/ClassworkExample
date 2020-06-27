@@ -77,4 +77,5 @@ dependencies = [
  "wasm-bindgen",
 ]
 
-[[package
+[[package]]
+name = "lazy_sta
