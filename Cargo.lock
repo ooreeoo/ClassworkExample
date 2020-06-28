@@ -79,4 +79,5 @@ dependencies = [
 
 [[package]]
 name = "lazy_static"
-version = "1.4
+version = "1.4.0"
+source = 
