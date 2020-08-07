@@ -102,4 +102,4 @@ dependencies = [
 name = "matches"
 version = "0.1.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7ffc5c53384
+checksum = "7ffc5c5338469d4d3ea17d26
