@@ -106,4 +106,5 @@ checksum = "7ffc5c5338469d4d3ea17d269fa8ea3512ad247247c30bd2df69e68309ed0a08"
 
 [[package]]
 name = "once_cell"
-version = "1
+version = "1.5.2"
+source = "re
