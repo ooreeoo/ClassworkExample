@@ -128,4 +128,4 @@ dependencies = [
 [[package]]
 name = "quote"
 version = "1.0.9"
-source = "registry+http
+source = "registry+https://github.com/ru
