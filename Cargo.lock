@@ -137,4 +137,5 @@ dependencies = [
 [[package]]
 name = "ratelimit"
 version = "0.4.4"
-source = "registry+https://github.com/rust-lang/crates.io-inde
+source = "registry+https://github.com/rust-lang/crates.io-index"
+check
