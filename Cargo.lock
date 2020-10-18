@@ -138,4 +138,4 @@ dependencies = [
 name = "ratelimit"
 version = "0.4.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5c4777eb47471c2a4
+checksum = "5c4777eb47471c2a42bee8b553b22b8e5c4
