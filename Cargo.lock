@@ -151,3 +151,4 @@ dependencies = [
  "once_cell",
  "spin",
  "untrusted",
+ "web-sys",
