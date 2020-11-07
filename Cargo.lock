@@ -155,4 +155,5 @@ dependencies = [
  "winapi",
 ]
 
-[[pa
+[[package]]
+name = "rus
