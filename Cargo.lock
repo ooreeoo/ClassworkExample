@@ -176,4 +176,5 @@ checksum = "71d301d4193d031abdd79ff7e3dd721168a9572ef3fe51a1517aba235bd8f86e"
 
 [[package]]
 name = "sct"
-vers
+version = "0.6.0"
+source
