@@ -177,4 +177,4 @@ checksum = "71d301d4193d031abdd79ff7e3dd721168a9572ef3fe51a1517aba235bd8f86e"
 [[package]]
 name = "sct"
 version = "0.6.0"
-source = "registry+https://github.co
+source = "registry+https://github.com/rust-lang/cra
