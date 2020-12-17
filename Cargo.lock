@@ -187,4 +187,4 @@ dependencies = [
 [[package]]
 name = "serde"
 version = "1.0.123"
-sourc
+source = "registry+
