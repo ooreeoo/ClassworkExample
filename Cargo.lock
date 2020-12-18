@@ -187,4 +187,4 @@ dependencies = [
 [[package]]
 name = "serde"
 version = "1.0.123"
-source = "registry+https://gith
+source = "registry+https://github.com/rust-l
