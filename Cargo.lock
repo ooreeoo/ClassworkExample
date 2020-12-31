@@ -195,4 +195,5 @@ dependencies = [
 
 [[package]]
 name = "serde_derive"
-version = 
+version = "1.0.123"
+sou
