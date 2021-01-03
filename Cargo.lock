@@ -196,4 +196,4 @@ dependencies = [
 [[package]]
 name = "serde_derive"
 version = "1.0.123"
-source = "registry+https://git
+source = "registry+https://github.com/rust-lang
