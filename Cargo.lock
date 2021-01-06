@@ -197,4 +197,4 @@ dependencies = [
 name = "serde_derive"
 version = "1.0.123"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "
+checksum = "9391c295d64fc0a
