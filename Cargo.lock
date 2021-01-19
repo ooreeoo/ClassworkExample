@@ -207,4 +207,4 @@ dependencies = [
 [[package]]
 name = "serde_json"
 version = "1.0.62"
-source = "registry+http
+source = "registry+https://g
