@@ -217,4 +217,5 @@ dependencies = [
 
 [[package]]
 name = "spin"
-vers
+version = "0.5.2"
+s
