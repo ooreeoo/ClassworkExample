@@ -218,4 +218,4 @@ dependencies = [
 [[package]]
 name = "spin"
 version = "0.5.2"
-source = "registry+https://github.com/rust-lang/c
+source = "registry+https://github.com/rust-lang/crates.io-ind
