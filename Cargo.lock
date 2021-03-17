@@ -232,4 +232,6 @@ dependencies = [
  "unicode-xid",
 ]
 
-[[package]
+[[package]]
+name = "tinyvec"
+ve
