@@ -232,4 +232,4 @@ dependencies = [
  "unicode-xid",
 ]
 
-[
+[[package]
