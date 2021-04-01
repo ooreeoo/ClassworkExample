@@ -245,4 +245,4 @@ dependencies = [
 name = "tinyvec_macros"
 version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "cd
+checksum = "cda74da7e1a664
