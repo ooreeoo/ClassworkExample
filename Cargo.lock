@@ -257,4 +257,4 @@ dependencies = [
 ]
 
 [[package]]
-name = "u
+name = "unicode-normalization
