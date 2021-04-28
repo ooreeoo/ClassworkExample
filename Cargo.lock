@@ -260,4 +260,4 @@ dependencies = [
 name = "unicode-normalization"
 version = "0.1.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksu
+checksum = "07fbfce
