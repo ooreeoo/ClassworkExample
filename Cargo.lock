@@ -266,4 +266,5 @@ dependencies = [
 ]
 
 [[package]]
-name = "unicode-xi
+name = "unicode-xid"
+version
