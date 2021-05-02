@@ -267,4 +267,5 @@ dependencies = [
 
 [[package]]
 name = "unicode-xid"
-version
+version = "0.2.1"
+source
