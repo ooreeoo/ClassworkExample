@@ -268,4 +268,4 @@ dependencies = [
 [[package]]
 name = "unicode-xid"
 version = "0.2.1"
-source = "r
+source = "registry+https:/
