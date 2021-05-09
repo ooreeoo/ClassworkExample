@@ -269,4 +269,4 @@ dependencies = [
 name = "unicode-xid"
 version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-c
+checksum = "f7fe0
