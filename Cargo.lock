@@ -285,4 +285,5 @@ checksum = "96014ded8c85822677daee4f909d18acccca744810fd4f8ffc492c284f2324bc"
 dependencies = [
  "base64",
  "chunked_transfer",
- "lo
+ "log",
+ "once_cell",
