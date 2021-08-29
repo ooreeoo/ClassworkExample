@@ -282,4 +282,5 @@ name = "ureq"
 version = "2.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "96014ded8c85822677daee4f909d18acccca744810fd4f8ffc492c284f2324bc"
-depende
+dependencies = [
+ "base64"
