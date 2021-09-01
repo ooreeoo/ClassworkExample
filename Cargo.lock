@@ -290,3 +290,4 @@ dependencies = [
  "rustls",
  "url",
  "webpki",
+ "webpki-roots
