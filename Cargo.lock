@@ -288,4 +288,5 @@ dependencies = [
  "log",
  "once_cell",
  "rustls",
- "u
+ "url",
+ "webpki",
