@@ -295,4 +295,5 @@ dependencies = [
 
 [[package]]
 name = "url"
-versi
+version = "2.2.0"
+sou
