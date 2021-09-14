@@ -296,4 +296,4 @@ dependencies = [
 [[package]]
 name = "url"
 version = "2.2.0"
-sou
+source = "registry+ht
