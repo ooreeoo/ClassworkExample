@@ -302,4 +302,4 @@ dependencies = [
  "form_urlencoded",
  "idna",
  "matches",
- "
+ "percent-encoding
