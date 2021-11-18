@@ -307,4 +307,5 @@ dependencies = [
 
 [[package]]
 name = "wasm-bindgen"
-version = "0
+version = "0.2.70"
+source = "reg
