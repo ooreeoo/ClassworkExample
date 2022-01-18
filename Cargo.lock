@@ -317,4 +317,4 @@ dependencies = [
 
 [[package]]
 name = "wasm-bindgen-backend"
-vers
+version = "0.2
