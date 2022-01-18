@@ -316,4 +316,5 @@ dependencies = [
 ]
 
 [[package]]
-name = "wasm-b
+name = "wasm-bindgen-backend"
+vers
