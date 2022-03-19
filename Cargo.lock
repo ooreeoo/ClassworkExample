@@ -324,4 +324,5 @@ dependencies = [
  "bumpalo",
  "lazy_static",
  "log",
- "proc-m
+ "proc-macro2",
+ "quote
