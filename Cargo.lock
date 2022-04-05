@@ -327,4 +327,4 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
- "wasm-bind
+ "wasm-bindgen-shared",
