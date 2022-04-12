@@ -333,4 +333,4 @@ dependencies = [
 [[package]]
 name = "wasm-bindgen-macro"
 version = "0.2.70"
-source = "registry+https://git
+source = "registry+https://github.com/rust-lang
