@@ -331,3 +331,4 @@ dependencies = [
 ]
 
 [[package]]
+name = "wasm-bindg
