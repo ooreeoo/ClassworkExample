@@ -333,4 +333,5 @@ dependencies = [
 [[package]]
 name = "wasm-bindgen-macro"
 version = "0.2.70"
-source = "registry+https://github.com/rust-lang/crates.io-in
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = 
