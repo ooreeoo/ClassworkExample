@@ -337,4 +337,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3b8853882eef39593ad4174dd26fc9865a64e84026d223f63bb2c42affcbba2c"
 dependencies = [
  "quote",
- "wasm-bindgen-macro-support"
+ "wasm-bindgen-macro-support",
+]
+
+[[packa
