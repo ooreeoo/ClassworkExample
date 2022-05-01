@@ -341,4 +341,4 @@ dependencies = [
 ]
 
 [[package]]
-name = "w
+name = "wasm-bindgen-macr
