@@ -341,4 +341,5 @@ dependencies = [
 ]
 
 [[package]]
-name = "wasm-bindgen-macr
+name = "wasm-bindgen-macro-support"
+version
