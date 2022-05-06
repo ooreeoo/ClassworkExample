@@ -343,4 +343,4 @@ dependencies = [
 [[package]]
 name = "wasm-bindgen-macro-support"
 version = "0.2.70"
-source = "regis
+source = "registry+https://gith
