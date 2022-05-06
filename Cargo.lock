@@ -342,4 +342,5 @@ dependencies = [
 
 [[package]]
 name = "wasm-bindgen-macro-support"
-version
+version = "0.2.70"
+sou
