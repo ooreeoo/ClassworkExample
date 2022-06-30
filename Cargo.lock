@@ -350,4 +350,7 @@ dependencies = [
  "quote",
  "syn",
  "wasm-bindgen-backend",
- "wasm-bindgen-share
+ "wasm-bindgen-shared",
+]
+
+[[package]
