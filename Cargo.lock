@@ -354,4 +354,5 @@ dependencies = [
 ]
 
 [[package]]
-name = "wasm-bindgen-sh
+name = "wasm-bindgen-shared"
+version 
