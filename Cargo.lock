@@ -356,4 +356,4 @@ dependencies = [
 [[package]]
 name = "wasm-bindgen-shared"
 version = "0.2.70"
-source = "registry+h
+source = "registry+https://github.com/ru
