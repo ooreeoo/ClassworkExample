@@ -355,4 +355,5 @@ dependencies = [
 
 [[package]]
 name = "wasm-bindgen-shared"
-version 
+version = "0.2.70"
+source
