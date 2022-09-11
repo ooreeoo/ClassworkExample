@@ -372,4 +372,4 @@ dependencies = [
 [[package]]
 name = "webpki"
 version = "0.21.4"
-source = "registry+https://github.com/rust-lan
+source = "registry+https://github.com/rust-lang/crates.io-inde
