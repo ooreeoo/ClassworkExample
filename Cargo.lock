@@ -381,4 +381,5 @@ dependencies = [
 
 [[package]]
 name = "webpki-roots"
-version = "0.21
+version = "0.21.0"
+source = "registry+h
