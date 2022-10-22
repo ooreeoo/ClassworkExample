@@ -380,4 +380,5 @@ dependencies = [
 ]
 
 [[package]]
-name = "webpki-roo
+name = "webpki-roots"
+version = "0.21
