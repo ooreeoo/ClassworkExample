@@ -382,4 +382,4 @@ dependencies = [
 [[package]]
 name = "webpki-roots"
 version = "0.21.0"
-source = "registry+https://github.com/rust
+source = "registry+https://github.com/rust-lang/cr
