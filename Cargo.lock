@@ -390,4 +390,5 @@ dependencies = [
 
 [[package]]
 name = "winapi"
-ver
+version = "0.3.9"
+so
