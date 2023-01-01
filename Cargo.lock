@@ -391,4 +391,4 @@ dependencies = [
 [[package]]
 name = "winapi"
 version = "0.3.9"
-source = "registry+https:/
+source = "registry+https://github.com/
