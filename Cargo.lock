@@ -399,4 +399,5 @@ dependencies = [
 ]
 
 [[package]]
-name = "winapi-i686-pc-w
+name = "winapi-i686-pc-windows-gnu"
+vers
