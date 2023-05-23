@@ -30,3 +30,14 @@ struct NotificationNeeded {
     content: String,
     fatal: bool
 }
+
+fn main() {
+    let twilio = Twilio::from_env();
+    let mut limiter = ratelimit::Builder::new()
+        .capacity(1)
+        .quantum(1)
+        .interval(std::time::Duration::from_secs(20))
+        .build();
+    loop {
+        limiter.wait();
+        if let Err(notification) = check_stock() {
