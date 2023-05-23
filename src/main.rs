@@ -10,3 +10,23 @@ static EXPECTED_RESPONSE: ResponsePayload<'static> = ResponsePayload {
         in_stock: false,
         total_on_hand: 0
     }
+};
+
+#[derive(Eq, PartialEq, Deserialize, Debug)]
+struct ResponsePayload<'data> {
+    #[serde(borrow)]
+    updated_at: &'data str,
+    total_on_hand: i64,
+    master: MasterPayload
+}
+
+#[derive(Eq, PartialEq, Deserialize, Debug)]
+struct MasterPayload {
+    in_stock: bool,
+    total_on_hand: i64
+}
+
+struct NotificationNeeded {
+    content: String,
+    fatal: bool
+}
