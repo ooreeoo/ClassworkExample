@@ -74,3 +74,15 @@ fn check_stock() -> Result<(), NotificationNeeded> {
             return Err(NotificationNeeded {
                 content: format!("Transport error retrieving JSON data: {:?}", err),
                 fatal: false
+            });
+        }
+    };
+
+    let content_length = response.header("Content-Length")
+        .map(|header| header.parse::<usize>())
+        .transpose()
+        .map_err(|parse_err| NotificationNeeded {
+            content: format!("Content-Length present but not a valid usize: {:?}", parse_err),
+            fatal: true
+        })?
+        .unwrap_or(8192);
