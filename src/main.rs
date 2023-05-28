@@ -41,3 +41,19 @@ fn main() {
     loop {
         limiter.wait();
         if let Err(notification) = check_stock() {
+            let fatal = notification.fatal;
+            if twilio.send(notification).is_ok() && fatal {
+                return;
+            }
+            std::thread::sleep(std::time::Duration::from_secs(60 * 2));
+        }
+}
+}
+
+fn check_stock() -> Result<(), NotificationNeeded> {
+    let response = match ureq::get(DATA_URL)
+        .set("User-Agent", "EMotoBros Stock Checking Bot, 3 req/minute, contact ekardnt@ekardnt.com for problems, see https://github.com/EkardNT/bac-bot")
+        .call() {
+        Ok(response) => {
+            if response.status() == 200 {
+                response
