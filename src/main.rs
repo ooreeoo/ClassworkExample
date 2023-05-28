@@ -86,3 +86,21 @@ fn check_stock() -> Result<(), NotificationNeeded> {
             fatal: true
         })?
         .unwrap_or(8192);
+
+    let mut bytes = Vec::with_capacity(content_length);
+    response.into_reader().read_to_end(&mut bytes).map_err(|io_err| NotificationNeeded {
+        content: format!("IO error when reading HTTP body: {:?}", io_err),
+        fatal: false
+    })?;
+
+    let payload: ResponsePayload<'_> = serde_json::from_slice(bytes.as_slice())
+        .map_err(|deser_err| NotificationNeeded {
+            content: format!("JSON deserialization failed: {:?}", deser_err),
+            fatal: true
+        })?;
+
+
+    if payload == EXPECTED_RESPONSE {
+        eprintln!("Response is as expected");
+        return Ok(());
+    }
