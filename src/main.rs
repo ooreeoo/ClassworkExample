@@ -57,3 +57,20 @@ fn check_stock() -> Result<(), NotificationNeeded> {
         Ok(response) => {
             if response.status() == 200 {
                 response
+            } else {
+                return Err(NotificationNeeded {
+                    content: format!("Unexpected successful status code {}", response.status()),
+                    fatal: true
+                });
+            }
+        },
+        Err(ureq::Error::Status(code, _response)) => {
+            return Err(NotificationNeeded {
+                content: format!("Status code {}", code),
+                fatal: code >= 400 && code < 500
+            });
+        },
+        Err(ureq::Error::Transport(err)) => {
+            return Err(NotificationNeeded {
+                content: format!("Transport error retrieving JSON data: {:?}", err),
+                fatal: false
