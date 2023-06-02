@@ -122,3 +122,21 @@ struct Twilio {
     twilio_sid: String,
     twilio_auth_token: String,
     twilio_source_phone: String,
+    twilio_destination_phone: String
+}
+
+impl Twilio {
+    fn from_env() -> Self {
+        let twilio_sid = std::env::var("TWILIO_SID")
+        .expect("TWILIO_SID environment variable not found");
+        let twilio_auth_token = std::env::var("TWILIO_AUTH_TOKEN")
+            .expect("TWILIO_AUTH_TOKEN environment variable not found");
+        let twilio_source_phone = std::env::var("TWILIO_SOURCE_PHONE")
+            .expect("TWILIO_SOURCE_PHONE environment variable not found");
+        let twilio_destination_phone = std::env::var("TWILIO_DESTINATION_PHONE")
+            .expect("TWILIO_DESTINATION_PHONE environment variable not found");
+        Self {
+            twilio_sid,
+            twilio_auth_token,
+            twilio_source_phone,
+            twilio_destination_phone
