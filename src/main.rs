@@ -104,3 +104,21 @@ fn check_stock() -> Result<(), NotificationNeeded> {
         eprintln!("Response is as expected");
         return Ok(());
     }
+
+    if payload.total_on_hand > 0 || payload.master.total_on_hand > 0 || payload.master.in_stock {
+        return Err(NotificationNeeded {
+            content: format!("BAC4000 maybe in stock! {:#?}", payload),
+            fatal: true
+        });
+    }
+
+    return Err(NotificationNeeded {
+        content: format!("Payload updated but looks like still not in stock, update the expected payload to {:#?}", payload),
+        fatal: true
+    });
+}
+
+struct Twilio {
+    twilio_sid: String,
+    twilio_auth_token: String,
+    twilio_source_phone: String,
