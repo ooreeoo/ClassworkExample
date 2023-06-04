@@ -154,3 +154,12 @@ impl Twilio {
             .set("Authorization", &format!("Basic {}", auth))
             .send_form(form_params.as_slice())
             .map(|_response| {
+                eprintln!("HTTP call to Twilio API succeeded, notification: {}", notification.content);
+                ()
+            })
+            .map_err(|err| {
+                eprintln!("HTTP call to Twilio API failed: {:?}", err);
+                ()
+            })
+    }
+}
