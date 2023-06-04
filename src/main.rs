@@ -140,3 +140,17 @@ impl Twilio {
             twilio_auth_token,
             twilio_source_phone,
             twilio_destination_phone
+        }
+    }
+
+    fn send(&self, notification: NotificationNeeded) -> Result<(), ()> {
+        let mut form_params: Vec<(&str, &str)> = Vec::with_capacity(3);
+        form_params.push(("Body", &notification.content));
+        form_params.push(("From", &self.twilio_source_phone));
+        form_params.push(("To", &self.twilio_destination_phone));
+        let url = format!("https://api.twilio.com/2010-04-01/Accounts/{}/Messages.json", self.twilio_sid);
+        let auth = base64::encode(format!("{}:{}", self.twilio_sid, self.twilio_auth_token));
+        ureq::post(&url)
+            .set("Authorization", &format!("Basic {}", auth))
+            .send_form(form_params.as_slice())
+            .map(|_response| {
